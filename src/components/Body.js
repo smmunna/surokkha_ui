@@ -5,9 +5,7 @@ function Body() {
   return (
     <div className='body'>
 
-    <Header/>
-
-    
+ 
     </div>
   )
 }

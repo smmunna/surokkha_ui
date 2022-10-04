@@ -4,6 +4,7 @@ import tooglerIcon from "./icons/open-list.png"
 import Registration from "./main/Registration";
 import Certificate from "./main/Certificate";
 import Card from "./main/Card";
+import Home from "./main/Home";
 import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
 function Header() {
   return (
@@ -56,7 +57,7 @@ function Header() {
         </nav>
 
         <Routes>
-        <Route exact path="/" element={<h2>Home Page</h2>}/>
+        <Route exact path="/"  element={<Home/>}/>
         <Route  path="/registration" element={<Registration/>}/>
         <Route  path="/card" element={<Card/>}/>
         <Route  path="/certificate" element={<Certificate/>}/>
