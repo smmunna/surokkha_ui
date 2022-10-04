@@ -32,7 +32,16 @@
   margin-top: 7%;
 }
 
+/* Home banner Image */
+.home-body{
+  margin-top:6%;
+  height: 600px;
+  width: 100%;
+  background-image: url('./components/images/banner.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 
+}
 
 
 
