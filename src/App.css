@@ -43,6 +43,63 @@
 
 }
 
+.home-vaccinereg{
+  margin-left: 45%;
+  margin-top: 13%;
+  position: relative;
+}
+.home-checkstatus{
+  margin-right: 50%;
+  margin-top: 20%;
+}
+
+/* Box designing for Home.js */
+.vaccinereg-box{
+  border-radius: 6px;
+  height: 400px;
+  width: 400px;
+  background-color: white;
+  position: absolute;
+  
+}
+.vaccinereg-box:before {
+  background: #0a2f8d;
+  content: "";
+  position: absolute;
+  width: 80%;
+  left: 50%;
+  bottom: 0;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  height: 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.vaccinereg-box .row{
+  padding-top: 25px;
+}
+
+/* Vaccine Registraation Heading */
+.vc-reg1{
+  margin-top: 9%;
+}
+.vc-reg{
+  margin-left: -10%;
+  margin-top: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  
+}
+.RegProcess{
+  text-align: center;
+  margin-top: 7%;
+
+}
+.RegProcess{
+  margin-left: 0;
+}
+
 
 
 
@@ -64,10 +121,101 @@
  @media (max-width: 1199.98px) {  }
 
  /* `lg` applies to medium devices (tablets, less than 992px) */
- @media (max-width: 991.98px) {  }
+ @media (max-width: 991.98px) { 
+   /* Home.js File */
+   .home-vaccinereg{
+    margin-left: 0%;
+    margin-top: 15%;
+  }
+  .home-checkstatus {
+    margin-top: 50%;
+    width: 100%;
+}
+
+  /* Vaccine Registration Blocks */
+  .vaccinereg-box {
+    height: 540px;
+    padding: 12px;
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: -11%;
+}
+
+  .home-body{
+    height: 800px;
+  }
+
+  /* Vaccine Registration */
+  .vc-reg{
+    margin-left: 0%; 
+  }
+  }
 
  /* `md` applies to small devices (landscape phones, less than 768px) */
- @media (max-width: 767.98px) {  }
+ @media (max-width: 767.98px) {
+
+   /* Home.js File */
+   .home-vaccinereg{
+    margin-left: 0%;
+    margin-top: 20%;
+  }
+    .home-checkstatus {
+      margin-top: 51%;
+      width: 100%;
+  }
+
+  /* Vaccine Registration Blocks */
+  .vaccinereg-box {
+    height: 500px;
+    padding: 12px;
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: -11%;
+}
+
+  .home-body{
+    height: 800px;
+  }
+
+  /* Vaccine Registration */
+  .vc-reg{
+    margin-left: 0%;
+  }
+
+
+   }
 
  /* `sm` applies to x-small devices (portrait phones, less than 576px) */
- @media (max-width: 575.98px) {  }
+ @media (max-width: 575.98px) { 
+
+  /* Home.js File */
+  .home-vaccinereg{
+    margin-left: 0%;
+    margin-top: 50%;
+  }
+  .home-checkstatus {
+    margin-top: 133%;
+    width: 100%;
+}
+
+  /* Vaccine Registration Blocks */
+  .vaccinereg-box {
+    padding: 12px;
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: -25%;
+}
+
+  .home-body{
+    height: 800px;
+  }
+
+  /* Vaccine Registration */
+  .vc-reg{
+    margin-left: 0%; 
+  }
+
+  }
