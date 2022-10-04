@@ -50,7 +50,7 @@
 }
 .home-checkstatus{
   margin-right: 50%;
-  margin-top: 20%;
+  margin-top: 13.4%;
 }
 
 /* Box designing for Home.js */
@@ -100,6 +100,66 @@
   margin-left: 0;
 }
 
+/* Check Status Div design class="home-checkstatus1" */
+.home-checkstatus1{
+  margin-bottom: 5%;
+  height: 85px;
+  background-color: white;
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+  transition: all .4s ease-in-out;
+}
+.home-checkstatus1::before{
+  content: '';
+  position: absolute;
+  height: 50px;
+  width: 10px;
+  background-color:#0D7B25;
+  top: 15px;
+  margin-left: -50%;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.home-checkstatus1:hover{
+  background-color: #e1f9e4;
+
+}
+
+/* CHECK STATUS AND IMG DESIGN */
+.checkstatus-img-text img{
+      margin-left: -15%;
+}
+.checkstatus-img-text a{
+  text-decoration: none;
+  margin-left: 5%;
+  color: black;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.vaccineCard, .certificate , .faq{
+  padding-top: 20px;
+}
+.vaccineCard::before{
+  content: '';
+  background-color: #D8DE00;
+}
+.vaccineCard:hover{
+      background-color: #eff1ca;
+}
+.certificate::before{
+  background-color: #25BE88;
+}
+.certificate:hover{
+    background-color: #dbf7ed;
+}
+.faq::before{
+  background-color: #60C6CC;
+}
+.faq:hover{
+  background-color: #e1f8f9;
+}
 
 
 
@@ -210,12 +270,20 @@
 }
 
   .home-body{
-    height: 800px;
+    height: 1000px;
   }
 
   /* Vaccine Registration */
   .vc-reg{
     margin-left: 0%; 
+  }
+
+  /* Check Status bar */
+  .home-checkstatus1{
+    margin: 2%;
+  }
+  .home-checkstatus{
+    margin-top: 115%;
   }
 
   }
