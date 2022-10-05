@@ -8,6 +8,9 @@ import VaccineCard from '../images/vaccine_card.png'
 import Certificate from '../images/certificate.png'
 import Faq from '../images/faq.png'
 import Hotline from '../images/helpline.png'
+import Registration from '../images/online.png'
+import Sms from '../images/sms.png'
+import Vaccination from '../images/vaccination.png'
 function Home() {
   return (
     <div>
@@ -110,7 +113,7 @@ function Home() {
                     <h6>Covid-19 Teleheath</h6>
                 </div>
                 <div className="col-lg-2 ">
-                <div className="hotline">
+                <div className="myhotline">
                         <a href="tel:">
                         <img src={Hotline} alt="Helpline" srcset="" />
                         </a>
@@ -124,6 +127,35 @@ function Home() {
         <div className="container Home-processVaccine">
             <div className="vaccine-process">
                 <h2>The process of receiving the Covid-19 corona vaccine</h2>
+                <div className="row">
+                    <div className="col-lg-4">
+                            <div className="vaccine-reg">
+                                <img src={Registration} alt="" srcset="" />
+                                <h3>Online Registration</h3>
+                                <p>
+                                First, you have to complete the online registration by verifying your national identity card and correct mobile number through this portal.
+                                </p>
+                            </div>
+                    </div>
+                    <div className="col-lg-4">
+                    <div className="vaccine-reg">
+                            <img src={Sms} alt="" srcset="" />
+                                <h3>SMS Notification</h3>
+                                <p>
+                                After registering online, you will receive a text message on your mobile phone mentioning the date of vaccination and the name of the vaccination center.
+                                </p>
+                            </div>
+                    </div>
+                    <div className="col-lg-4">
+                    <div className="vaccine-reg">
+                                <img src={Vaccination} alt="" srcset="" />
+                                <h3>Vaccination</h3>
+                                <p>
+                                Subject to receiving a text message on the mobile phone, you have to appear in person at the vaccination center on the specified date with the vaccine card, national identity card and signed consent form to receive the Covid-19 vaccine.
+                                </p>
+                            </div>
+                    </div>
+                </div>
             </div>
         </div>
 

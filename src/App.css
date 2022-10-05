@@ -195,15 +195,17 @@
   position: absolute;
   content: '';
   height: 70px;
-  width: 1px;
+  width: 0.01pc;
   margin-left: 70px;
-  background-color: black;
+  background-color: rgb(157, 150, 150);
 }
-
+.myhotline{
+  padding: 12px;
+}
 
 /* Taking the Vaccine Process */
 .vaccine-process{
-  height: 500px;
+  height: 600px;
   background-color: white;
   margin: 5%;
   position: relative;
@@ -225,6 +227,21 @@
   background-color: red;
 }
 
+.vaccine-reg{
+  padding-top: 50px;
+}
+.vaccine-reg img,h3{
+  padding-bottom: 12px;
+}
+
+.vaccine-reg p{
+  text-align: center;
+  line-height: 1.7;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 
 
@@ -298,7 +315,7 @@
 
 /* Hotline Number's */
 .home-telephone{
-  height: 550px;
+  height: 680px;
   
 }
 
@@ -317,6 +334,23 @@
     rotate: 90deg;
     top: -20%;
     right: 48%;
+  }
+
+  /* Taking the Vaccine Process */
+  .vaccine-process{
+    height: 1170px;
+    margin-left: -7%;
+    margin-right: -7%;
+  }
+  .vaccine-process h2{
+    font-size: 30px;
+    margin-left: 2%;
+    
+  }
+  .vaccine-process h2::before{
+    margin-left: -3%;
+    margin-top: -1%;
+    width: 5px;
   }
 
 
@@ -383,6 +417,23 @@
     }
 
 
+    /* Taking the Vaccine Process */
+    .vaccine-process{
+      height: 1370px;
+      margin-left: -10%;
+      margin-right: -10%;
+    }
+    .vaccine-process h2{
+      font-size: 20px;
+      margin-left: 2%;
+      
+    }
+    .vaccine-process h2::before{
+      margin-left: -6%;
+      width: 5px;
+    }
+
+
    }
 
  /* `sm` applies to x-small devices (portrait phones, less than 576px) */
@@ -446,5 +497,20 @@
       rotate: 90deg;
       top: -20%;
       right: 48%;
+    }
+    /* Taking the Vaccine Process */
+    .vaccine-process{
+      height: 1570px;
+      margin-left: 7%;
+      margin-right: 7%;
+    }
+    .vaccine-process h2{
+      font-size: 20px;
+      margin-left: 10%;
+      
+    }
+    .vaccine-process h2::before{
+      margin-left: -6%;
+      width: 5px;
     }
   }
