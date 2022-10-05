@@ -420,6 +420,34 @@
 
   }
 
+
+/* For Samsung Galaxy M31 @media (max-width:430) */
+@media (max-width:815px){
+  .footerIcon{
+    margin-left: 16%;
+  }
+  .footer-list{
+    margin-left: 50%;
+  }
+  .developby{
+    margin-left: 5%;
+  }
+  .vaccinereg-box{
+    margin-top: -5%;
+  }
+  .home-checkstatus{
+    margin-top: 65%;
+  }
+
+  .footer{
+    height: 742px;
+  }
+
+
+}
+
+   
+
  /* `md` applies to small devices (landscape phones, less than 768px) */
  @media (max-width: 767.98px) {
 
@@ -637,4 +665,36 @@
     }
 
 
+  }
+
+
+ 
+  @media (max-width: 430px) { 
+      /* Footer */
+    .footer{
+      height: 730px;
+    }
+    .footer .row{
+      padding-top: 10%;
+    }
+
+    .footer .row .footer-list a h6{
+      text-align: left;
+      padding: 2px;
+      margin-top: 5%;
+      margin-bottom: 5%;
+    }
+    .footer-list{
+      margin-left: 5%;
+    }
+    .footerIcon{
+      margin-left: -30%;
+    }
+    .developby{
+      margin-left: -12%;
+    }
+    .affiliate{
+      margin-top: 4%;
+      margin-left: -70%;
+    }
   }

@@ -1,6 +1,6 @@
 import React from "react";
 import NavbarLogo from "./images/surokkhaHeader.png";
-import tooglerIcon from "./icons/open-list.png"
+import tooglerIcon from "./icons/open-list.png";
 import Registration from "./main/Registration";
 import Certificate from "./main/Certificate";
 import Card from "./main/Card";
@@ -11,7 +11,6 @@ function Header() {
     <div>
       {/* Navbar */}
       <Router>
-      
         <nav class="navbar fixed-top navbar-expand-lg bg-light">
           <div class="container-fluid">
             <Link class="navbar-brand" to="#">
@@ -31,7 +30,14 @@ function Header() {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-                <img src={tooglerIcon} className="tooglerIcon" height="30" width="30" alt="" srcset="" />
+              <img
+                src={tooglerIcon}
+                className="tooglerIcon"
+                height="30"
+                width="30"
+                alt=""
+                srcset=""
+              />
               {/* <span class="navbar-toggler-icon"></span> */}
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -57,11 +63,11 @@ function Header() {
         </nav>
 
         <Routes>
-        <Route exact path="/"  element={<Home/>}/>
-        <Route  path="/registration" element={<Registration/>}/>
-        <Route  path="/card" element={<Card/>}/>
-        <Route  path="/certificate" element={<Certificate/>}/>
-      </Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route path="/registration" element={<Registration />} />
+          <Route path="/card" element={<Card />} />
+          <Route path="/certificate" element={<Certificate />} />
+        </Routes>
         {/* Navbar Ended */}
       </Router>
     </div>
