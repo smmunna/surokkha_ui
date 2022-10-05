@@ -244,7 +244,34 @@
 }
 
 
+/* Footer */
+.footer{
+  height: 320px;
+  background-color: #F26D3E;
+}
+.footer .row{
+  padding: 30px;
+  padding-top: 5%;
+}
 
+.footer .row .footer-list a{
+    text-decoration: none;
+    color: white;
+    text-align: left;
+}
+.footer-list{
+  margin-left: 35%;
+}
+
+.footerIcon{
+  margin-left: 5%;
+}
+
+/* developby */
+.developby{
+  padding: 12px;
+  color: white;
+}
 
 
 
