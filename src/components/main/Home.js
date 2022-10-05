@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-has-content */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import RegImage from '../images/registration (2).png'
@@ -6,6 +7,7 @@ import Tick from '../images/status.png'
 import VaccineCard from '../images/vaccine_card.png'
 import Certificate from '../images/certificate.png'
 import Faq from '../images/faq.png'
+import Hotline from '../images/helpline.png'
 function Home() {
   return (
     <div>
@@ -38,7 +40,7 @@ function Home() {
                 <div className="col-lg-6">
                     {/* Check status */}
                     <div className="home-checkstatus">
-                        <div className="home-checkstatus1">
+                        <div className="home-checkstatus1 onecheckStatus">
                                 <div className="checkstatus-img-text">
                                      {/* Image and Text.. */}
                                      <img src={Tick} alt="" srcset="" />
@@ -69,6 +71,59 @@ function Home() {
                     </div>
 
                 </div>
+            </div>
+        </div>
+
+        {/* Telephone Number's List */}
+        <div className="home-telephone">
+            <div className="row">
+                <div className="col-lg-2 myline">
+                <div className="hotline">
+                        <a href="tel:">
+                            <img src={Hotline} alt="Helpline" srcset="" />
+                        </a>
+                    </div>
+                    <h6>Hotline</h6>
+                </div>
+                <div className="col-lg-2 myline">
+                <div className="hotline">
+                        <a href="tel:333">333</a>
+                    </div>
+                    <h6>National Call Center</h6>
+                </div>
+                <div className="col-lg-2 myline">
+                    <div className="hotline">
+                        <a href="tel:16263">16263</a>
+                    </div>
+                    <h6>Health Portal</h6>
+                </div>
+                <div className="col-lg-2 myline">
+                <div className="hotline">
+                        <a href="tel:10655">10655</a>
+                    </div>
+                    <h6>IEDCR</h6>
+                </div>
+                <div className="col-lg-2 myline">
+                <div className="hotline">
+                        <a href="tel:09666777222">09666777222</a>
+                    </div>
+                    <h6>Covid-19 Teleheath</h6>
+                </div>
+                <div className="col-lg-2 ">
+                <div className="hotline">
+                        <a href="tel:">
+                        <img src={Hotline} alt="Helpline" srcset="" />
+                        </a>
+                    </div>
+                    <h6>All Call Center</h6>
+                </div>
+            </div>
+        </div>
+
+        {/* Process For Taking the vaccine==> */}
+        <div className="container Home-processVaccine">
+            <div className="vaccine-process">
+                <h2>The process of receiving the Covid-19 corona vaccine</h2>
             </div>
         </div>
 

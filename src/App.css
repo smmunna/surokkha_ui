@@ -126,6 +126,7 @@
 
 }
 
+
 /* CHECK STATUS AND IMG DESIGN */
 .checkstatus-img-text img{
       margin-left: -15%;
@@ -162,8 +163,67 @@
 }
 
 
+/* Home-telephone */
+.home-telephone{
+  height: 100px;
+  width: 80%;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: -3%;
+  
+}
+.hotline{
+  padding: 12px;
+  
+}
+.hotline a {
+  text-decoration: none;
+  color: green;
+  font-size: 16px;
+  font-weight: 700;
+}
 
 
+
+.myline{
+  position: relative;
+
+}
+.hotline::after{
+  position: absolute;
+  content: '';
+  height: 70px;
+  width: 1px;
+  margin-left: 70px;
+  background-color: black;
+}
+
+
+/* Taking the Vaccine Process */
+.vaccine-process{
+  height: 500px;
+  background-color: white;
+  margin: 5%;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.vaccine-process h2{
+  font-size: 36px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 35px;
+  margin-left: -12%;
+}
+.vaccine-process h2::before{
+  content: '';
+  position: absolute;
+  height: 50px;
+  width: 8px;
+  margin-left: -2%;
+  background-color: red;
+}
 
 
 
@@ -191,6 +251,10 @@
   .home-checkstatus {
     margin-right: 20%;
     margin-left: 12%;
+}
+
+.hotline::after{
+  margin-left: 50px;
 }
 
   }
@@ -232,6 +296,29 @@
     margin-left: -10%;
 }
 
+/* Hotline Number's */
+.home-telephone{
+  height: 550px;
+  
+}
+
+  .myline{
+    margin-bottom: 5%;
+  }
+  .hotline::after{
+   display: none;
+  }
+  .myline h6::after{
+    content: '';
+    position: absolute;
+    height: 200px;
+    width: 3px;
+    background-color: #0D7B25;
+    rotate: 90deg;
+    top: -20%;
+    right: 48%;
+  }
+
 
   }
 
@@ -271,6 +358,29 @@
   .vc-reg{
     margin-left: 0%;
   }
+
+  /* Hotline Number's */
+  .home-telephone{
+    height: 640px;
+    
+  }
+  
+    .myline{
+      margin-bottom: 5%;
+    }
+    .hotline::after{
+     display: none;
+    }
+    .myline h6::after{
+      content: '';
+      position: absolute;
+      height: 200px;
+      width: 3px;
+      background-color: #0D7B25;
+      rotate: 90deg;
+      top: -20%;
+      right: 48%;
+    }
 
 
    }
@@ -315,4 +425,26 @@
     margin-top: 115%;
   }
 
+  /* Hotline Number's */
+  .home-telephone{
+    height: 550px;
+    
+  }
+  
+    .myline{
+      margin-bottom: 5%;
+    }
+    .hotline::after{
+     display: none;
+    }
+    .myline h6::after{
+      content: '';
+      position: absolute;
+      height: 200px;
+      width: 3px;
+      background-color: #0D7B25;
+      rotate: 90deg;
+      top: -20%;
+      right: 48%;
+    }
   }
