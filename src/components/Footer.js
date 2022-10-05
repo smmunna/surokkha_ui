@@ -26,11 +26,11 @@ function Footer() {
           </div>
           <div className="col-lg-4">
               <h6 className='developby'>Developed by- Sm Munna <span><i>For Practicing</i></span></h6>
-              <img src={Ict} alt="ICT" />
+              <img src={Ict} className='developby' alt="ICT" />
           </div>
           <div className="col-lg-4">
-              <h6 className='developby'>Affiliates</h6>
-              <img src={Affiliate} alt="Affiliate" />
+              <h6 className='developby affiliate'>Affiliates</h6>
+              <img src={Affiliate} className='developby' alt="Affiliate" />
           </div>
         </div>
     </div>

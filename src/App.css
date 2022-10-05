@@ -259,6 +259,10 @@
     color: white;
     text-align: left;
 }
+
+.footer .row .footer-list a:hover{
+  text-decoration: underline;
+}
 .footer-list{
   margin-left: 35%;
 }
@@ -299,6 +303,10 @@
 
 .hotline::after{
   margin-left: 50px;
+}
+
+.footer-list{
+  margin-left: 6rem;
 }
 
   }
@@ -378,6 +386,35 @@
     margin-left: -3%;
     margin-top: -1%;
     width: 5px;
+  }
+
+  /* Footer */
+  .footer{
+    height: 920px;
+  }
+  .footer .row{
+    padding-top: 4%;
+    margin-left: -10%;
+  }
+
+  .footer .row .footer-list a h6{
+    text-align: left;
+    padding: 2px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  .footer-list{
+    margin-left: 9rem;
+  }
+  .footerIcon{
+    margin-left: -50%;
+  }
+  .developby{
+    margin-left: -34rem;
+  }
+  .affiliate{
+    margin-top: 3%;
+    margin-left: -75%;
   }
 
 
@@ -460,6 +497,36 @@
       width: 5px;
     }
 
+    
+    /* Footer */
+    .footer{
+      height: 850px;
+    }
+    .footer .row{
+      padding-top: 4%;
+      margin-left: -10%;
+    }
+
+    .footer .row .footer-list a h6{
+      text-align: left;
+      padding: 2px;
+      margin-top: 5%;
+      margin-bottom: 5%;
+    }
+    .footer-list{
+      margin-left: 9rem;
+    }
+    .footerIcon{
+      margin-left: -35%;
+    }
+    .developby{
+      margin-left: -16rem;
+    }
+    .affiliate{
+      margin-top: 3%;
+      margin-left: -63%;
+    }
+
 
    }
 
@@ -540,4 +607,34 @@
       margin-left: -6%;
       width: 5px;
     }
+
+    /* Footer */
+    .footer{
+      height: 730px;
+    }
+    .footer .row{
+      padding-top: 10%;
+    }
+
+    .footer .row .footer-list a h6{
+      text-align: left;
+      padding: 2px;
+      margin-top: 5%;
+      margin-bottom: 5%;
+    }
+    .footer-list{
+      margin-left: 5%;
+    }
+    .footerIcon{
+      margin-left: -20%;
+    }
+    .developby{
+      margin-left: -2%;
+    }
+    .affiliate{
+      margin-top: 4%;
+      margin-left: -70%;
+    }
+
+
   }
