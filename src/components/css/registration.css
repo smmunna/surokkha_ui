@@ -1,0 +1,29 @@
+.mydiv{
+    position: relative;
+    height: 300px;
+    width: 500px;
+    background-color: yellow;
+    margin-left: auto;
+    margin-right: auto;
+}
+.inner1{
+    position: absolute;
+    margin-top: -10px;
+    height: 50px;
+    width: 50px;
+    background-color: aqua;
+    box-shadow: 10px 4px 8px 1px blue;
+    animation-name: innerbox;
+    animation-duration: 5s ;
+    animation-delay: 1s ease-in-out;
+    animation-direction: normal;
+    /* animation-iteration-count: infinite; */
+}
+@keyframes innerbox {
+   0%{
+    left: 0;
+   }
+   100%{
+    left: 100%;
+   }
+}
