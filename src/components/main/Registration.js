@@ -1,18 +1,16 @@
-import React from 'react'
-import '../../App.css'
-import '../css/registration.css'
-function Registration() {
-  return (
-    <div className='body'>
-         <h2> Registration</h2>
-         <p>I am okay yyou can</p>
-         <div className="mydiv">
-            <div className="inner1">
+/* eslint-disable no-use-before-define */
+import React from "react";
+import "../../App.css";
+import "../css/registration.css";
 
-            </div>
-         </div>
-    </div>
-  )
+function Registration() {
+  
+
+  return (
+    <div className="body">
+    <h1>Registration</h1>
+      </div>
+  );
 }
 
-export default Registration
+export default Registration;

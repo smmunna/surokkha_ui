@@ -1,11 +1,16 @@
 import React from 'react'
 
-function Certificate() {
+
+ const Certificate = () => {
+  
   return (
-    <div className='body'>
-    <h2>Certificate</h2>
+    <div>
+    
+    <h1>Update User</h1>
+      
     </div>
   )
 }
+
 
 export default Certificate
