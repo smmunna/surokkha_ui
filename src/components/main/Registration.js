@@ -5,6 +5,7 @@ function Registration() {
   return (
     <div className='body'>
          <h2> Registration</h2>
+         <p>I am okay yyou can</p>
          <div className="mydiv">
             <div className="inner1">
 
