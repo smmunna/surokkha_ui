@@ -5,6 +5,7 @@ import Registration from "./main/Registration";
 import Certificate from "./main/Certificate";
 import Card from "./main/Card";
 import Home from "./main/Home";
+import RegDetails from "./main/registration/RegDetails"
 import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
 function Header() {
   return (
@@ -67,6 +68,8 @@ function Header() {
           <Route path="/registration" element={<Registration />} />
           <Route path="/card" element={<Card />} />
           <Route path="/certificate" element={<Certificate />} />
+          {/* registration/RegDetails */}
+          <Route path="/ab" element={<h2>Regostratopm detils</h2>} />
         </Routes>
         {/* Navbar Ended */}
       </Router>

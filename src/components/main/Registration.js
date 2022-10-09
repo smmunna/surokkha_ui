@@ -2,13 +2,18 @@
 import React from "react";
 import "../../App.css";
 import "../css/registration.css";
+import {Link } from "react-router-dom";
+import LeftNav from "./registration/LeftNav";
+
 
 function Registration() {
-  
+
 
   return (
     <div className="body">
-    <h1>Registration</h1>
+
+      <LeftNav/>
+          
       </div>
   );
 }
