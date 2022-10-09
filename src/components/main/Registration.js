@@ -11,8 +11,19 @@ function Registration() {
 
   return (
     <div className="body">
+          <div className="reg-heading ">
+          <h2>Vaccine Registration</h2>
+        </div>
+      <div className="row">
+        <div className="col-lg-3">
+            <div className="left-nav">
+            <LeftNav/>
+            </div>
+        </div>
+        <div className="col-lg-9">
 
-      <LeftNav/>
+        </div>
+      </div>
           
       </div>
   );

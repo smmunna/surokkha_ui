@@ -1,8 +1,19 @@
-
 .left-nav-reg{
     margin-bottom: 15px;
-    width: 15rem;
-    padding: 7px;
+    width: 15.5rem;
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 6px;
+    background-color: white;
+    border-color: rgb(131, 149, 164);
+}
+.left-nav-reg:hover{
+    background-color: greenyellow;
+}
+
+.left-nav-reg .link{
+    text-decoration: none;
+    color: black;
 }
 
 .ads-image{
@@ -12,5 +23,93 @@
     margin-bottom: 12px;
 }
 .form{
+    margin-top: 10px;
     margin-right: 45rem;
 }
+
+
+/* Responsive */
+
+/* Responsive Design */
+
+ /* `xxl` applies to x-large devices (large desktops, less than 1400px) */
+ @media (max-width: 1399.98px) {  }
+
+ /* `xl` applies to large devices (desktops, less than 1200px) */
+ @media (max-width: 1199.98px) { 
+    .form{
+        margin-top: 2%;
+    }
+  }
+
+ /* `lg` applies to medium devices (tablets, less than 992px) */
+ @media (max-width: 991.98px) {
+    .form{
+        margin-top: 6%;
+        margin-left: 20%;
+    }
+    .left-nav-reg{
+        width: 540px;
+    }
+    .ads-image{
+        display: none;
+    }
+   }
+
+ /* `md` applies to small devices (landscape phones, less than 768px) */
+ @media (max-width: 767.98px) { 
+    .form{
+        margin-top: 8%;
+        margin-left: 20%;
+    }
+    .left-nav-reg{
+        width: 440px;
+    }
+    .ads-image{
+        display: none;
+    }
+  }
+
+ /* `sm` applies to x-small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) { 
+    .form{
+        margin-top: 23%;
+        margin-left: 5%;
+    }
+    .left-nav-reg{
+        width: 340px;
+    }
+    .ads-image{
+        display: none;
+    }
+
+  }
+
+  @media (max-width: 475px) { 
+    .form{
+    
+        margin-left: 15%;
+    }
+    .left-nav-reg{
+        width: 300px;
+    }
+    .ads-image{
+        display: none;
+    }
+
+  }
+
+  /* `sm` applies to x-small devices (portrait phones, less than 576px) */
+ @media (max-width: 320px) { 
+    .form{
+        margin-top: 43%;
+        margin-left: 5%;
+    }
+    .left-nav-reg{
+        width: 290px;
+    }
+    .ads-image{
+        display: none;
+    }
+
+  }

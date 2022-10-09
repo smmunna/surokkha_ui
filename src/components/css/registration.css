@@ -1,5 +1,120 @@
-::selection {
-    color: red;
-    background: yellow;
+.left-nav{
+  margin-top: 10%;
+  margin-left: 62%;
+}
+
+/* Vaccine Heading */
+.reg-heading{
+  text-align: left;
+  height: 70px;
+  margin-bottom: -30px;
+  background-color: #F26D3E;
+}
+
+.reg-heading h2{
+  color: white;
+  padding: 12px;
+  margin-left: 14%;
+}
+
+
+
+
+
+/* Responsive Design */
+
+ /* `xxl` applies to x-large devices (large desktops, less than 1400px) */
+ @media (max-width: 1399.98px) {  }
+
+ /* `xl` applies to large devices (desktops, less than 1200px) */
+ @media (max-width: 1199.98px) { 
+
   }
+
+ /* `lg` applies to medium devices (tablets, less than 992px) */
+ @media (max-width: 991.98px) { 
+  .left-nav{
+    margin-top: 30%;
+    margin-left: 0%;
+  }
+  .reg-heading{
+    margin-top: 12.5%;
+    margin-bottom: -35%;
+  }
+  .reg-heading h2{
+    margin-left: 28%;
+  }
+  }
+
+ /* `md` applies to small devices (landscape phones, less than 768px) */
+ @media (max-width: 767.98px) { 
+  .left-nav{
+    margin-top: 30%;
+    margin-left: 0%;
+  }
+  .reg-heading{
+    margin-top: 12.5%;
+    margin-bottom: -35%;
+  }
+  .reg-heading h2{
+    margin-left: 28%;
+  }
+  }
+
+ /* `sm` applies to x-small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) {
+  .left-nav{
+    margin-top: 15%;
+    margin-left: 20%;
+  }
+  .reg-heading{
+    margin-top: 16%;
+    margin-bottom: -30%;
+    text-align: center; 
+  }
+   }
+
+/* Mobile-L device*/
+ @media (max-width: 425.98px) {
+
+  .left-nav{
+    margin-top: 30%;
+    margin-left: 0%;
+  }
+  .reg-heading{
+    margin-top: 23%;
+    margin-bottom: -50%;
+  }
+  .reg-heading h2{
+    margin-left: -2%;
+  }
+
+   }
+
+/* Mobile-M device*/
+ @media (max-width: 375.98px) {
+  
+  .left-nav{
+    margin-top: 30%;
+    margin-left: -5%;
+  }
+  .reg-heading{
+    margin-top: 26%;
+    margin-bottom: -50%;
+  }
+   }
+
+/* Mobile-S device*/
+ @media (max-width: 320.98px) { 
+  .left-nav{
+    margin-top: 15%;
+    margin-left: 0%;
+  }
+  .reg-heading{
+    margin-top: 50%;
+    margin-bottom: -50%;
+  }
+  }
+
+
 
