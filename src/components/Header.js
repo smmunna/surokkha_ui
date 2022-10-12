@@ -1,13 +1,24 @@
-import React from "react";
+import React,{useEffect,useState} from "react";
 import NavbarLogo from "./images/surokkhaHeader.png";
 import tooglerIcon from "./icons/open-list.png";
 import Registration from "./main/Registration";
-import Certificate from "./main/Certificate";
-import Card from "./main/Card";
+// import Certificate from "./main/Certificate";
+// import Card from "./main/Card";
+import Alert from '@mui/material/Alert';
+import AlertTitle from '@mui/material/AlertTitle';
+
 import Home from "./main/Home";
-import RegDetails from "./main/registration/RegDetails"
 import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
 function Header() {
+
+  const [error, setError] = useState('');
+
+  // Function for the alert message;
+    const noAccess = () =>{
+          alert("Software is under the development....")
+    }
+
+
   return (
     <div>
       {/* Navbar */}
@@ -49,15 +60,16 @@ function Header() {
                 <Link class="nav-link" to="/registration">
                   Registration
                 </Link>
-                <Link class="nav-link" to="/card">
+                <Link onClick={noAccess} class="nav-link" to="#">
                   Card
                 </Link>
-                <Link class="nav-link" to="/certificate">
+                <Link onClick={noAccess} class="nav-link" to="#">
                   Certificate
                 </Link>
-                <Link class="nav-link " to="#">
+                <Link onClick={noAccess} class="nav-link " to="#">
                   Verify Certificate
                 </Link>
+                
               </div>
             </div>
           </div>
@@ -66,10 +78,9 @@ function Header() {
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/registration" element={<Registration />} />
-          <Route path="/card" element={<Card />} />
-          <Route path="/certificate" element={<Certificate />} />
-          {/* registration/RegDetails */}
-          <Route path="/ab" element={<h2>Regostratopm detils</h2>} />
+          {/* <Route path="/card" element={<Card />} />
+          <Route path="/certificate" element={<Certificate />} /> */}
+          
         </Routes>
         {/* Navbar Ended */}
       </Router>
