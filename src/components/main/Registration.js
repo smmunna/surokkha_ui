@@ -4,9 +4,11 @@ import "../../App.css";
 import "../css/registration.css";
 import {Link } from "react-router-dom";
 import LeftNav from "./registration/LeftNav";
+import RegInstruction from "./registration/instruction/RegInstruction";
 
 
 function Registration() {
+
 
 
   return (
@@ -21,7 +23,9 @@ function Registration() {
             </div>
         </div>
         <div className="col-lg-9">
-
+              <div >
+                  <RegInstruction/>
+              </div>
         </div>
       </div>
           

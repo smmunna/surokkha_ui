@@ -18,7 +18,31 @@
 }
 
 
-
+/* Registration Instruction Page CSS */
+.reg-instruction{
+  margin-top: 7%;
+}
+.reg-instruction h2{
+    font-size: 22px;
+    margin-top: 5%;
+    text-align: left;
+    margin-left: 12%;
+}
+.reg-instruction-text{
+  margin-left: 2%;
+}
+.reg-instruction-text .text{
+  margin-top: 2%;
+  margin-left: 12%;
+  text-align: left;
+  font-size: 20px;
+}
+.reg-instruction-text p{
+  margin-top: -1%;
+  text-align: justify;
+  margin-left: 13%;
+  padding-right: 25px;
+}
 
 
 /* Responsive Design */
@@ -28,6 +52,21 @@
 
  /* `xl` applies to large devices (desktops, less than 1200px) */
  @media (max-width: 1199.98px) { 
+
+  
+  /* Registration Instruction Page CSS */
+  .reg-instruction h2{
+    margin-left: 9rem;
+  }
+.reg-instruction-text h3{
+  margin-left: 6rem;
+}
+.reg-instruction-text p{
+  margin-left: 9rem;
+  font-size: 22px;
+}
+
+
 
   }
 
@@ -44,6 +83,18 @@
   .reg-heading h2{
     margin-left: 28%;
   }
+
+  
+  /* Registration Instruction Page CSS */
+.reg-instruction-text h3{
+  margin-left: 28px;
+}
+.reg-instruction-text p{
+  font-size: 20px;
+}
+
+
+
   }
 
  /* `md` applies to small devices (landscape phones, less than 768px) */
@@ -59,6 +110,17 @@
   .reg-heading h2{
     margin-left: 28%;
   }
+
+
+  /* Registration Instruction Page CSS */
+.reg-instruction-text h3{
+    margin-left: 48px;
+}
+.reg-instruction-text p{
+    font-size: 18px;
+}
+
+
   }
 
  /* `sm` applies to x-small devices (portrait phones, less than 576px) */
@@ -72,6 +134,24 @@
     margin-bottom: -30%;
     text-align: center; 
   }
+
+  /* Registration Instruction Page CSS */
+.reg-instruction h2{
+  margin-left: 1rem;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.reg-instruction-text h3{
+margin-right: 72%;
+font-size: 15px;
+}
+.reg-instruction-text p{
+margin: 2%;
+text-align: justify;
+padding: 12px;
+margin-top: -4% !important;
+}
+
    }
 
 /* Mobile-L device*/
@@ -89,6 +169,35 @@
     margin-left: -2%;
   }
 
+
+
+   /* Registration Instruction Page CSS */
+   .reg-instruction h2{
+    font-size: 16px;
+    margin-top: 5%;
+    line-height: 1.7;
+    text-align: left;
+    margin-left: 6%;
+    color: #F26D3E;
+}
+.reg-instruction-text #text{
+  margin-top: 2%!important;
+  margin-left: 0%;
+  text-align: left;
+  font-size: 16px;
+  font-weight: bold;
+  color: blue;
+}
+.reg-instruction-text p{
+margin: 2%;
+text-align: justify;
+line-height: 1.8;
+padding: 12px;
+font-size: 15px;
+margin-top: -6% !important;
+}
+
+
    }
 
 /* Mobile-M device*/
@@ -102,6 +211,34 @@
     margin-top: 26%;
     margin-bottom: -50%;
   }
+
+   /* Registration Instruction Page CSS */
+  .reg-instruction h2{
+    font-size: 16px;
+    margin-top: 5%;
+    line-height: 1.7;
+    text-align: left;
+    margin-left: 6%;
+    color: #F26D3E;
+}
+.reg-instruction-text #text{
+  margin-top: 2%!important;
+  margin-left: 0%;
+  text-align: left;
+  font-size: 16px;
+  font-weight: bold;
+  color: blue;
+}
+.reg-instruction-text p{
+margin: 2%;
+text-align: justify;
+line-height: 1.8;
+padding: 12px;
+font-size: 15px;
+margin-top: -6% !important;
+}
+
+
    }
 
 /* Mobile-S device*/
@@ -114,6 +251,29 @@
     margin-top: 50%;
     margin-bottom: -50%;
   }
+
+  /* Registration Instruction Page CSS */
+  .reg-instruction h2{
+    font-size: 16px;
+    margin-top: 5%;
+    text-align: left;
+    margin-left: 6%;
+}
+.reg-instruction-text #text{
+  margin-top: 2%!important;
+  margin-left: 0%;
+  text-align: left;
+  font-size: 16px;
+  font-weight: bold;
+}
+.reg-instruction-text p{
+margin: 2%;
+text-align: justify;
+padding: 12px;
+font-size: 15px;
+margin-top: -6% !important;
+}
+
   }
 
 

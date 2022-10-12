@@ -9,7 +9,6 @@ function Card() {
     <div className="body">
       <h2>Card</h2>
       <h2>Fetch All the Image From Here</h2>
-
       
     </div>
   );
