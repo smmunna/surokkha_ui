@@ -698,3 +698,386 @@
       margin-left: -70%;
     }
   }
+
+
+/* For Large Mobile=== */
+
+@media (max-width: 425.98px) { 
+
+    /* Navbar Editing */
+.navbar-brand{
+  margin-left: 15%;
+}
+.navbar-brand-image{
+  height: 60px;
+  width: 180px;
+}
+.navbar-nav{
+  margin-left: auto;
+  margin-right: 0%;
+}
+    /* Home.js File */
+    .home-vaccinereg{
+      margin-left: 0%;
+      margin-top: 50%;
+    }
+    .home-checkstatus {
+      margin-top: 140%!important;
+      width: 100%;
+  }
+  
+    /* Vaccine Registration Blocks */
+    
+    .vaccinereg-box {
+      padding: 12px;
+      height: 450px;
+      width: 96%;
+      margin-left: 2%;
+      margin-right: 2%;
+      margin-top: -25%;
+  }
+  .home-checkstatus{
+    margin-top: 90%!important;
+  }
+  
+    .home-body{
+      height: 1050px;
+    }
+  
+    /* Vaccine Registration */
+    .vc-reg{
+      margin-left: 0%; 
+    }
+  
+    /* Check Status bar */
+    .home-checkstatus1, .certificate, .vaccineCard, .faq {
+      margin-right: 14%;
+      margin-left: -10%;
+  }
+   
+  
+    /* Hotline Number's */
+    .home-telephone{
+      height: 550px;
+      
+    }
+    
+      .myline{
+        margin-bottom: 5%;
+      }
+      .hotline::after{
+       display: none;
+      }
+      .myline h6::after{
+        content: '';
+        position: absolute;
+        height: 200px;
+        width: 3px;
+        background-color: #0D7B25;
+        rotate: 90deg;
+        top: -20%;
+        right: 48%;
+      }
+      /* Taking the Vaccine Process */
+      .vaccine-process{
+        height: 1600px;
+        margin-left: 7%;
+        margin-right: 7%;
+      }
+      .vaccine-process h2{
+        font-size: 20px;
+        margin-left: 10%;
+        
+      }
+      .vaccine-process h2::before{
+        margin-left: -6%;
+        width: 5px;
+      }
+  
+      /* Footer */
+      .footer{
+        height: 733px;
+      }
+      .footer .row{
+        padding-top: 10%;
+      }
+  
+      .footer .row .footer-list a h6{
+        text-align: left;
+        padding: 2px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+      }
+      .footer-list{
+        margin-left: 20%;
+      }
+      .footerIcon{
+        margin-left: -20%;
+      }
+      .developby{
+        margin-left: -4%;
+      }
+      .footerIcon{
+        margin-left: 3%;
+      }
+      .affiliate{
+        margin-top: 4%;
+        margin-left: -60%;
+      }
+  
+  
+    }
+  /* For Medium mobile Devices */
+
+@media (max-width: 375.98px) { 
+
+    /* Navbar Editing */
+.navbar-brand{
+  margin-left: 15%;
+}
+.navbar-brand-image{
+  height: 50px;
+  width: 150px;
+}
+.navbar-nav{
+  margin-left: auto;
+  margin-right: 0%;
+}
+    /* Home.js File */
+    .home-vaccinereg{
+      margin-left: 0%;
+      margin-top: 50%;
+    }
+    .home-checkstatus {
+      margin-top: 143%!important;
+      width: 100%;
+  }
+  
+    /* Vaccine Registration Blocks */
+    
+    .vaccinereg-box {
+      padding: 12px;
+      height: 450px;
+      width: 96%;
+      margin-left: 2%;
+      margin-right: 2%;
+      margin-top: -25%;
+  }
+  .home-checkstatus{
+    margin-top: 105%!important;
+  }
+  
+    .home-body{
+      height: 1050px;
+    }
+  
+    /* Vaccine Registration */
+    .vc-reg{
+      margin-left: 0%; 
+    }
+  
+    /* Check Status bar */
+    .home-checkstatus1, .certificate, .vaccineCard, .faq {
+      margin-right: 14%;
+      margin-left: -10%;
+  }
+   
+  
+    /* Hotline Number's */
+    .home-telephone{
+      height: 550px;
+      
+    }
+    
+      .myline{
+        margin-bottom: 5%;
+      }
+      .hotline::after{
+       display: none;
+      }
+      .myline h6::after{
+        content: '';
+        position: absolute;
+        height: 200px;
+        width: 3px;
+        background-color: #0D7B25;
+        rotate: 90deg;
+        top: -20%;
+        right: 48%;
+      }
+      /* Taking the Vaccine Process */
+      .vaccine-process{
+        height: 1600px;
+        margin-left: 7%;
+        margin-right: 7%;
+      }
+      .vaccine-process h2{
+        font-size: 20px;
+        margin-left: 10%;
+        
+      }
+      .vaccine-process h2::before{
+        margin-left: -6%;
+        width: 5px;
+      }
+  
+      /* Footer */
+      .footer{
+        height: 710px;
+      }
+      .footer .row{
+        padding-top: 10%;
+      }
+  
+      .footer .row .footer-list a h6{
+        text-align: left;
+        padding: 2px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+      }
+      .footer-list{
+        margin-left: 5%;
+      }
+      .footerIcon{
+        margin-left: -20%;
+      }
+      .developby{
+        margin-left: -4%;
+      }
+      .footerIcon{
+        margin-left: 3%;
+      }
+      .affiliate{
+        margin-top: 4%;
+        margin-left: -70%;
+      }
+  
+  
+    }
+  /* For small mobile Devices */
+
+@media (max-width: 320.98px) { 
+
+    /* Navbar Editing */
+.navbar-brand{
+  margin-left: 15%;
+}
+.navbar-brand-image{
+  height: 50px;
+  width: 150px;
+}
+.navbar-nav{
+  margin-left: auto;
+  margin-right: 0%;
+}
+    /* Home.js File */
+    .home-vaccinereg{
+      margin-left: 0%;
+      margin-top: 50%;
+    }
+    .home-checkstatus {
+      margin-top: 143%!important;
+      width: 100%;
+  }
+  
+    /* Vaccine Registration Blocks */
+    
+    .vaccinereg-box {
+      padding: 12px;
+      height: 450px;
+      width: 96%;
+      margin-left: 2%;
+      margin-right: 2%;
+      margin-top: -25%;
+  }
+  .home-checkstatus{
+    margin-top: 130%!important;
+  }
+  
+    .home-body{
+      height: 1050px;
+    }
+  
+    /* Vaccine Registration */
+    .vc-reg{
+      margin-left: 0%; 
+    }
+  
+    /* Check Status bar */
+    .home-checkstatus1, .certificate, .vaccineCard, .faq {
+      margin-right: 14%;
+      margin-left: -10%;
+  }
+   
+  
+    /* Hotline Number's */
+    .home-telephone{
+      height: 550px;
+      
+    }
+    
+      .myline{
+        margin-bottom: 5%;
+      }
+      .hotline::after{
+       display: none;
+      }
+      .myline h6::after{
+        content: '';
+        position: absolute;
+        height: 200px;
+        width: 3px;
+        background-color: #0D7B25;
+        rotate: 90deg;
+        top: -20%;
+        right: 48%;
+      }
+      /* Taking the Vaccine Process */
+      .vaccine-process{
+        height: 1740px;
+        margin-left: 7%;
+        margin-right: 7%;
+      }
+      .vaccine-process h2{
+        font-size: 20px;
+        margin-left: 10%;
+        
+      }
+      .vaccine-process h2::before{
+        margin-left: -6%;
+        width: 5px;
+      }
+  
+      /* Footer */
+      .footer{
+        height: 700px;
+      }
+      .footer .row{
+        padding-top: 10%;
+      }
+  
+      .footer .row .footer-list a h6{
+        text-align: left;
+        padding: 2px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+      }
+      .footer-list{
+        margin-left: 5%;
+      }
+      .footerIcon{
+        margin-left: -20%;
+      }
+      .developby{
+        margin-left: -4%;
+      }
+      .footerIcon{
+        margin-left: 3%;
+      }
+      .affiliate{
+        margin-top: 4%;
+        margin-left: -70%;
+      }
+  
+  
+    }
