@@ -23,22 +23,25 @@
   margin-top: 7%;
 }
 .reg-instruction h2{
-    font-size: 22px;
-    margin-top: 5%;
+  font-size: 25px;
+  margin-left: 15%;
+  line-height: 1.5;
+}
+.reg-instruction #text{
+    font-size: 20px;
+    margin-top: 1%;
     text-align: left;
     margin-left: 12%;
+    font-weight: bold;
 }
 .reg-instruction-text{
-  margin-left: 2%;
+  margin-left: 1%;
 }
-.reg-instruction-text .text{
-  margin-top: 2%;
-  margin-left: 12%;
-  text-align: left;
-  font-size: 20px;
-}
+
 .reg-instruction-text p{
   margin-top: -1%;
+  font-size: 18px;
+  line-height: 1.7;
   text-align: justify;
   margin-left: 13%;
   padding-right: 25px;
@@ -55,17 +58,7 @@
 
   
   /* Registration Instruction Page CSS */
-  .reg-instruction h2{
-    margin-left: 9rem;
-  }
-.reg-instruction-text h3{
-  margin-left: 6rem;
-}
-.reg-instruction-text p{
-  margin-left: 9rem;
-  font-size: 22px;
-}
-
+ 
 
 
   }
@@ -85,12 +78,30 @@
   }
 
   
-  /* Registration Instruction Page CSS */
-.reg-instruction-text h3{
-  margin-left: 28px;
+
+   /* Registration Instruction Page CSS */
+   .reg-instruction h2{
+    font-size: 28px;
+    margin-top: 5%;
+    line-height: 1.7;
+    text-align: left;
+    margin-left: 6%;
+    color: #F26D3E;
+}
+.reg-instruction-text #text{
+  margin-top: 2%!important;
+  margin-left: 2%;
+  text-align: left;
+  font-size: 24px;
+  font-weight: bold;
 }
 .reg-instruction-text p{
-  font-size: 20px;
+margin: 2%;
+text-align: justify;
+line-height: 1.8;
+padding: 12px;
+font-size: 22px;
+margin-top: -3% !important;
 }
 
 
@@ -113,12 +124,32 @@
 
 
   /* Registration Instruction Page CSS */
-.reg-instruction-text h3{
-    margin-left: 48px;
+
+   /* Registration Instruction Page CSS */
+   .reg-instruction h2{
+    font-size: 22px;
+    margin-top: 5%;
+    line-height: 1.7;
+    text-align: left;
+    margin-left: 6%;
+    color: #F26D3E;
+}
+.reg-instruction-text #text{
+  margin-top: 2%!important;
+  margin-left: 2%;
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
 }
 .reg-instruction-text p{
-    font-size: 18px;
+margin: 2%;
+text-align: justify;
+line-height: 1.8;
+padding: 12px;
+font-size: 17px;
+margin-top: -3% !important;
 }
+
 
 
   }
@@ -135,22 +166,33 @@
     text-align: center; 
   }
 
-  /* Registration Instruction Page CSS */
-.reg-instruction h2{
-  margin-left: 1rem;
-  font-size: 16px;
-  line-height: 1.5;
+  
+   /* Registration Instruction Page CSS */
+   .reg-instruction h2{
+    font-size: 16px;
+    margin-top: 5%;
+    line-height: 1.7;
+    text-align: left;
+    margin-left: 6%;
+    color: #F26D3E;
 }
-.reg-instruction-text h3{
-margin-right: 72%;
-font-size: 15px;
+.reg-instruction-text #text{
+  margin-top: 2%!important;
+  margin-left: 0%;
+  text-align: left;
+  font-size: 16px;
+  font-weight: bold;
+  color: blue;
 }
 .reg-instruction-text p{
 margin: 2%;
 text-align: justify;
+line-height: 1.8;
 padding: 12px;
-margin-top: -4% !important;
+font-size: 15px;
+margin-top: -6% !important;
 }
+
 
    }
 
